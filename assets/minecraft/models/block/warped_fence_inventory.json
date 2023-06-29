@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_inventory_template",
+    "textures": {
+        "planks": "block/warped_planks",
+		"post": "block/warped_fence_post"
+    }
+}

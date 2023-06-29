@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_inventory_template",
+    "textures": {
+        "planks": "block/nether_bricks",
+		"post": "block/nether_bricks"
+    }
+}

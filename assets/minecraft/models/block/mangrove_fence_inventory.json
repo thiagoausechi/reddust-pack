@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_inventory_template",
+    "textures": {
+        "planks": "block/mangrove_planks",
+        "post": "block/mangrove_fence_post"
+    }
+}

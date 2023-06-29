@@ -1,0 +1,7 @@
+{
+    "parent": "block/fence_inventory_template",
+    "textures": {
+        "planks": "block/jungle_planks",
+		"post": "block/jungle_fence_post"
+    }
+}
