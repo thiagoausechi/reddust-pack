@@ -105,6 +105,7 @@
 
   "pack.incompatible": "§oIncompatível",
   "resourcePack.broken_assets": "§4RECURSOS CORROMPIDOS DETECTADOS",
+  "dataPack.validation.failed": "Houve um §4erro §fao validar os pacotes de dados!",
 
   "book.finalizeWarning": "§4Atenção! §rAo assinar o livro, você não poderá mais editá-lo.",
   "book.invalid.tag": "§4* Marcação inválida *",
@@ -155,9 +156,18 @@
 
   "block.minecraft.set_spawn": "§oO ponto de renascimento foi definido",
 
-  "itemGroup.redstone": "§4Redstone",
+  "itemGroup.redstone": "§4Red Dust",
   "itemGroup.brewing": "§5Poções",
   "inventory.binSlot": "§4Destruir",
+
+  "block.minecraft.redstone_wire": "Cabo de Red Dust",
+  "block.minecraft.redstone_ore": "Minério de Red Dust",
+  "block.minecraft.deepslate_redstone_ore": "Minério de Red Dust de ardósia",
+  "block.minecraft.redstone_torch": "Tocha de Red Dust",
+  "block.minecraft.redstone_wall_torch": "Tocha de Red Dust de parede",
+  "block.minecraft.redstone_lamp": "Lâmpada de Red Dust",
+  "block.minecraft.redstone_block": "Bloco de Red Dust",
+  "item.minecraft.redstone": "§4Pó de Red Dust",
 
   "block.minecraft.cake": "Bolo \u00a7f\ueff4\u00a7f\ueff4\u00a7f\ueff4\u00a7f\ueff4\u00a7f\ueff4\u00a7f\ueff4\u00a7f\ueff4",
   "item.minecraft.apple": "Ma\u00e7\u00e3 \u00a7f\ueff4\u00a7f\ueff4",
