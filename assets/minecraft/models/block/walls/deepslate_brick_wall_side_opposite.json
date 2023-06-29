@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/walls/template_wall_side_bricks_opposite",
+  "textures": {
+    "wall": "minecraft:block/walls/deepslate_brick_wall_opposite",
+	"opposite": "minecraft:block/walls/deepslate_brick_wall",
+	"end": "minecraft:block/walls/deepslate_brick_wall_end"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/walls/template_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/walls/polished_blackstone_bricks_wall",
+    "opposite": "minecraft:block/walls/polished_blackstone_bricks_wall_opposite",
+    "end": "minecraft:block/walls/polished_blackstone_bricks_wall_end",
+    "post": "minecraft:block/walls/polished_blackstone_bricks_post"
+  }
+}

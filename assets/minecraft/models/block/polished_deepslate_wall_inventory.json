@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/walls/template_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/walls/polished_deepslate_wall",
+    "opposite": "minecraft:block/walls/polished_deepslate_wall_opposite",
+    "end": "minecraft:block/walls/polished_deepslate_wall_end",
+    "post": "minecraft:block/walls/polished_deepslate_post"
+  }
+}

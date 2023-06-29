@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/walls/template_wall_inventory",
+  "textures": {
+    "wall": "minecraft:block/walls/mud_brick_wall",
+    "opposite": "minecraft:block/walls/mud_brick_wall_opposite",
+    "end": "minecraft:block/walls/mud_brick_wall_end",
+    "post": "minecraft:block/walls/mud_brick_wall_post"
+  }
+}

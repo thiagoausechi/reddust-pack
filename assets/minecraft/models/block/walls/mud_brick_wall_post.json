@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/walls/template_wall_post_bricks",
+  "textures": {
+    "wall": "minecraft:block/walls/mud_brick_wall_post"
+  }
+}

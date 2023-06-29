@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/walls/template_wall_sandstone_inventory",
+  "textures": {
+    "wall": "minecraft:block/walls/red_sandstone_wall",
+    "opposite": "minecraft:block/walls/red_sandstone_wall_opposite",
+    "end": "minecraft:block/red_sandstone_top",
+    "top": "minecraft:block/red_sandstone_top",
+    "post": "minecraft:block/red_sandstone"
+  }
+}
