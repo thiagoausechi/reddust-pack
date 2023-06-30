@@ -2,7 +2,7 @@
   "parent": "minecraft:block/walls/template_wall_sandstone_inventory",
   "textures": {
     "wall": "minecraft:block/walls/sandstone_wall",
-    "opposite": "minecraft:block/walls/sandstone_wall_opposite",
+    "opposite": "minecraft:block/walls/sandstone_wall",
     "end": "minecraft:block/sandstone_top",
     "top": "minecraft:block/sandstone_top",
     "post": "minecraft:block/sandstone"
