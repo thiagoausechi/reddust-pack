@@ -1,0 +1,57 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/stem/pumpkin_stem_stage4",
+		"stem": "block/stem/pumpkin_stem_stage4",
+		"pumpkin": "block/stem/pumpkin_side_stage6",
+		"top": "block/stem/pumpkin_top_stage6",
+		"down": "block/stem/pumpkin_bottom_stage6",
+		"bottom": "block/stem/pumpkin_stem_bottom"
+	},
+	"elements": [
+		{
+			"name": "PlaneX3",
+			"from": [8, -1, -14],
+			"to": [8.001, 31, 18],
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#stem"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#stem"}
+			}
+		},
+		{
+			"name": "Box3",
+			"from": [6, 8.5, 0],
+			"to": [10, 12.5, 4],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [6, 8.5, 0]},
+			"faces": {
+				"north": {"uv": [6, 6, 10, 10], "texture": "#pumpkin"},
+				"east": {"uv": [6, 6, 10, 10], "texture": "#pumpkin"},
+				"south": {"uv": [6, 6, 10, 10], "texture": "#pumpkin"},
+				"west": {"uv": [6, 6, 10, 10], "texture": "#pumpkin"},
+				"up": {"uv": [6, 6, 10, 10], "texture": "#top"},
+				"down": {"uv": [6, 6, 10, 10], "texture": "#down"}
+			}
+		},
+		{
+			"name": "PlaneX3",
+			"from": [8, -1.001, 0],
+			"to": [24, -1, 16],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, -1, 0]},
+			"faces": {
+				"up": {"uv": [16, 16, 0, 1], "rotation": 270, "texture": "#bottom"},
+				"down": {"uv": [0, 1, 16, 16], "rotation": 90, "texture": "#bottom"}
+			}
+		},
+		{
+			"name": "PlaneX3",
+			"from": [-8, -1, 0],
+			"to": [8, -0.999, 16],
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8, -1, 0]},
+			"faces": {
+				"up": {"uv": [0, 1, 16, 16], "rotation": 270, "texture": "#bottom"},
+				"down": {"uv": [16, 16, 0, 1], "rotation": 90, "texture": "#bottom"}
+			}
+		}
+	]
+}

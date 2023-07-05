@@ -1,0 +1,40 @@
+{
+	"__comment": "Designed by JermsyBoy with Cubik Studio - https://cubik.studio",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#stem",
+		"stem": "block/stem/pumpkin_stem",
+		"bottom": "block/stem/pumpkin_stem_bottom"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "PlaneZ2",
+			"from": [ -15, -1, 8 ],
+			"to": [ 17, 31, 8.001 ],
+			"faces": {
+				"north": { "uv": [ 0, 0, 16, 16 ], "texture": "#stem" },
+				"south": { "uv": [ 16, 0, 0, 16 ], "texture": "#stem" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 0, -1.001, 8 ],
+			"to": [ 16, -0.9999999, 24 ],
+			"rotation": { "origin": [ 0, -1, 8 ], "axis": "x", "angle": -22.5 },
+			"faces": {
+				"down": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom" },
+				"up": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom" }
+			}
+		},
+		{
+			"__comment": "PlaneZ2",
+			"from": [ 0, -1, -8 ],
+			"to": [ 16, -0.999, 8 ],
+			"rotation": { "origin": [ 0, -1, 8 ], "axis": "x", "angle": 22.5 },
+			"faces": {
+				"down": { "uv": [ 16, 16, 0, 1 ], "texture": "#bottom" },
+				"up": { "uv": [ 0, 1, 16, 16 ], "texture": "#bottom" }
+			}
+		}
+	]
+}
