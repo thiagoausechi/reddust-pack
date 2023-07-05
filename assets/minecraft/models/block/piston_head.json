@@ -1,0 +1,46 @@
+{
+    "textures": {
+        "face": "block/piston_top",
+        "side": "block/piston_side",
+        "extension": "block/piston_extension",
+		"particle": "block/piston_top"
+    },
+    "elements": [
+        {
+            "name": "Head",
+            "from": [ 0.0, 0.0, 0.0 ], 
+            "to": [ 16.0, 16.0, 4.0 ], 
+            "faces": {
+                "north": { "texture": "#face", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "cullface": "north" },
+                "east":  { "texture": "#side", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 90, "cullface": "east" },
+                "south": { "texture": "#face", "uv": [ 0.0, 0.0, 16.0, 16.0 ] },
+                "west":  { "texture": "#side", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 270, "cullface": "west" },
+                "up":    { "texture": "#side", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "cullface": "up" },
+                "down":  { "texture": "#side", "uv": [ 0.0, 0.0, 16.0, 4.0 ], "rotation": 180, "cullface": "down" }
+            }
+        },
+        {
+            "name": "Extensionl",
+            "from": [ 6.0, 6.0, 4.0 ], 
+            "to": [ 10.0, 10.0, 12.0 ], 
+            "faces": {
+                "east": { "texture": "#side", "uv": [ 0.0, 0.0, 8.0, 4.0 ], "rotation": 180 },
+                "west": { "texture": "#side", "uv": [ 8.0, 4.0, 0.0, 0.0 ], "rotation": 180 },
+                "up":   { "texture": "#side", "uv": [ 0.0, 0.0, 8.0, 4.0 ], "rotation": 90 },
+                "down": { "texture": "#side", "uv": [ 0.0, 0.0, 8.0, 4.0 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Extension",
+            "from": [ 5.0, 5.0, 12.0 ], 
+            "to": [ 11.0, 11.0, 20.0 ], 
+            "faces": {
+                "north": { "texture": "#extension", "uv": [ 9.0, 0.0, 15.0, 6.0 ], "rotation": 180 },
+                "east":  { "texture": "#extension", "uv": [ 0.0, 0.0, 8.0, 6.0 ] },
+                "west":  { "texture": "#extension", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "rotation": 180 },
+                "up":    { "texture": "#extension", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "rotation": 270 },
+                "down":  { "texture": "#extension", "uv": [ 0.0, 0.0, 8.0, 6.0 ], "rotation": 90 }
+            }
+        }
+    ]
+}
