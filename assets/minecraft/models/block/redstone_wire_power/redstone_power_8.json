@@ -1,0 +1,6 @@
+{
+    "parent": "block/redstone_wire_power/scouter",
+    "textures": {
+        "power": "block/redstone_wire_power/redstone_power_8"
+    }
+}
